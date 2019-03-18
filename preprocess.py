@@ -3,6 +3,8 @@ import numpy as np
 import os
 import pyworld
 
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
+
 def load_wavs(wav_dir, sr):
 
     wavs = list()
